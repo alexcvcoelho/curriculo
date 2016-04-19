@@ -26,5 +26,5 @@ de dez 2014 - atualmente
 
 ## Principais Repositórios
 - [Repositório 1](http://facens.br)
-- [Repositório 2](http://www3.facens.br/nasa)
-- [Repositório 3](http://www3.facens.br/fablab)
+- [Repositório 2](http://facens.br)
+- [Repositório 3](http://facens.br)
