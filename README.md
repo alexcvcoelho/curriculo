@@ -19,3 +19,7 @@ de dez 2014 - atualmente
 - Angular js
 - Jquery
 - Bootstrap
+
+## Idiomas
+- Inglês nível intermediário - boa leitura e boa escrita
+- Espanhol nível básico - boa escrita
