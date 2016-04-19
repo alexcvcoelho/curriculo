@@ -13,3 +13,4 @@ de dez 2014 - atualmente
 -PHP
 -MySQL
 -Javascript
+-SQL
