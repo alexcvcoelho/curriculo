@@ -12,3 +12,4 @@ de dez 2014 - atualmente
 ## Slkills
 -PHP
 -MySQL
+-Javascript
