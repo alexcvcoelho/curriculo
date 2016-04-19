@@ -8,8 +8,8 @@ Estudante de Engenharia da Computação - FACENS
 de 2013 - atualmente
 
 ## Experiência
-Estagiário no LEC (Laboratório de Engenharia da Computação) - FACENS
-de dez 2014 - atualmente
+- Estagiário no LEC (Laboratório de Engenharia da Computação) - FACENS
+-- de dez 2014 - atualmente
 
 ## Slkills
 - PHP
