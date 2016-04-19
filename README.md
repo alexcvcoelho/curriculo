@@ -12,10 +12,10 @@ Estagiário no LEC (Laboratório de Engenharia) FACENS
 de dez 2014 - atualmente
 
 ## Slkills
--PHP
--MySQL
--Javascript
--SQL
--Angular js
--Jquery
--Bootstrap
+- PHP
+- MySQL
+- Javascript
+- SQL
+- Angular js
+- Jquery
+- Bootstrap
