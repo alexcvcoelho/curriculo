@@ -15,3 +15,4 @@ de dez 2014 - atualmente
 -Javascript
 -SQL
 -Angular js
+-Jquery
