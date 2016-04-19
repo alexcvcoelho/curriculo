@@ -5,5 +5,6 @@ curso git @abril2016
 ## Formação
 
 ## Experiência
+Estagiário no LEC (Laboratório de Engenharia) FACENS 
 
 ## Slkills
