@@ -23,3 +23,8 @@ de dez 2014 - atualmente
 ## Idiomas
 - Inglês nível intermediário - boa leitura e boa escrita
 - Espanhol nível básico - boa escrita
+
+## Principais Repositórios
+- [Repositório 1](http://facens.br)
+- [Repositório 2](http://www3.facens.br/nasa)
+- [Repositório 3](http://www3.facens.br/fablab)
