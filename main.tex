@@ -1,0 +1,119 @@
+\documentclass[a4paper,10pt]{article}
+
+%A Few Useful Packages
+\usepackage{marvosym}
+\usepackage{fontspec} 					%for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo} 				%better formatting of the A4 page
+% an alternative to Layaureo can be ** \usepackage{fullpage} **
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%FONTS
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin}
+%%% modified for Karol Kozioł for ShareLaTeX use
+\setmainfont[
+SmallCapsFont = Fontin-SmallCaps.otf,
+BoldFont = Fontin-Bold.otf,
+ItalicFont = Fontin-Italic.otf
+]
+{Fontin.otf}
+%%%
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+%Tweak a bit the top margin
+%\addtolength{\voffset}{-1.3cm}
+
+%Italian hyphenation for the word: ''corporations''
+\hyphenation{im-pre-se}
+
+%-------------WATERMARK TEST [**not part of a CV**]---------------
+\usepackage[absolute]{textpos}
+
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+\pagestyle{empty} % non-numbered pages
+
+\font\fb=''[cmr10]'' %for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par{\centering{\Huge Alex Covolan Vieira Coelho}\bigskip\par}
+
+%--------------------SECTIONS-----------------------------------
+%Section: Personal Data
+\section{Dados Pessoais}
+
+\begin{tabular}{rl}
+    \textsc{Data Nascimento:} & 02/05/1995 \\
+    \textsc{Endereço:}   & Rua Tietê, N\textsuperscript{\underline{o}} 271, Ap 51 | Vila Trujillo | Sorocaba - SP \\
+    \textsc{Celular:}     & (15) 98126-7305\\
+    \textsc{Email:}     & \href{mailto:alexcvcoelho@gmail.com}{alexcvcoelho@gmail.com} \\
+    \textsc{Linkedin:} & \href{https://www.linkedin.com/in/alex-coelho-475654a3/}{Alex Coelho}
+\end{tabular}
+
+%Section: Work Experience at the top
+\section{Experiência Profissional}
+\begin{tabular}{r|p{11cm}}
+% Line 1
+ \emph{2016 - Atual} & \textbf{Faculdade de Engenharia de Sorocaba - FACENS} \\
+ & \emph{\textit{Analista de Sistemas Jr.}} \\
+ & \footnotesize{Contratado ao término do estágio, para atuar no desenvolvimento WEB utilizando a pilha LAMP, SQL Server, Ruby e plataforma Sales Force, além de realizar a documentação de projetos. 
+ \begin{itemize}
+ 	\item Colaboração com traduções para um projeto francês de documentação de Fab Labs.
+ \end{itemize} } \\ \multicolumn{2}{c}{} \\
+% Line 2
+ \emph{2014 - 2016} & \textbf{Faculdade de Engenharia de Sorocaba - FACENS} \\
+ & \emph{\textit{Estagiário}} \\
+ & \footnotesize{Estágio na área de desenvolvimento WEB, utilizando a pilha LAMP e SQL Server, desenvolvendo sistemas corporativos e acadêmicos, além de colaboração para o desenvolvimento de uma micro framework em PHP.
+  \begin{itemize}
+ 	\item Desenvolvimento de um sistema de chamada online;
+ 	\item Doação do sistema de processo seletivo da escola de música FUNDEC.
+ \end{itemize}} \\ \multicolumn{2}{c}{} \\
+\end{tabular}
+
+%Section: Education
+\section{Formação}
+\begin{tabular}{rl}	
+% Line 1
+ 2013 - 2017 & \textbf{Bacharelado em Engenharia de Computação} \\
+& \textit{Faculdade de Engenharia de Sorocaba - FACENS} \\
+& Monitor de Algoritmo e Programação por dois semestres em 2014.\\&\\
+\end{tabular}
+
+%Section: Languages
+\section{Idiomas}
+\begin{tabular}{rl}
+\textsc{Inglês:}&Intermediário (bom entendimento e boa leitura)\\
+\textsc{Espanhol:}&Básico (bom entendimento)\\
+\end{tabular}
+
+\section{Skills}
+\begin{tabular}{rl}
+ Básico:& Java, C\#, Hibernate, .NET, Jenkins \setmainfont[SmallCapsFont=Fontin-SmallCaps.otf]{Fontin.otf}\\
+ Intermediário:& C, Ruby, Rails, NodeJS, Linux, Nginx, Codeigniter, SQL Server, PostgreSQL, \LaTeX \\
+ Avançado:& PHP, Apache, MySQL, Docker 
+\end{tabular}
+
+\section{Interesses e Atividades}
+Apaixonado por tecnologias Open Source\\
+Interessado em leituras motivacionais \\
+Escoteiro Lis de Ouro \\
+
+\end{document}
